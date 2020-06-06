@@ -1,10 +1,10 @@
 <!-- Pandora Selfhosted Web Server -->
 
 ### Pandora Selfhosted
-This project was built with Python 3 and uses basic library to handle files within the Pandora folder, it can access it through localserver and via localhost too. The example files are made with Bootstrap and shows a very basic usage of the funcionality.
+This project was built with Python 3 and uses basic library to handle files within the Pandora folder, it can access it through localserver and via localhost too. The example files are made with Foundation and shows a very basic usage of the funcionality, and you can use it to learn HTML and CSS without worry about setup a specific server, it's usefull specially if you're still learning.
 
 * [Python](https://www.python.org/)
-* [Bootstrap](https://getbootstrap.com/)
+* [Foundation](https://get.foundation/index.html)
 
 <!-- GETTING STARTED -->
 ## Getting Started

@@ -1,74 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Pandora</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://bootswatch.com/4/solar/bootstrap.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://bootswatch.com/_assets/css/custom.min.css"></script>
-  <style>
-    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-    .row.content {height: 1500px}
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-    
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height: auto;} 
-    }
-  </style>
-</head>
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pandora WebServer with foundation</title>
+    <link rel="stylesheet" href="assets/css/foundation.css">
+  </head>
 <body>
 
-<div class="container-fluid">
-  <div class="row content">
-    <div class="col-sm-3 sidenav">
-      <h4>Pandora WebServer</h4>
-      <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#section1">GitHub</a></li>
-      </ul><br>
-      <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search Blog..">
-        <span class="input-group-btn">
-          <button class="btn btn-default" type="button">
-            <span class="glyphicon glyphicon-search"></span>
-          </button>
-        </span>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <h1>Welcome to Pandora!</h1>
+        </div>
       </div>
-    </div>
 
-    <div class="col-sm-9">
-      <h2>What the fuck is pandora?</h2>
-      <h5><span class="glyphicon glyphicon-time"></span>Spoiler: its a selfhost thing</h5>
-      <p>Pandora is a self hosting web server wich can be used to test and fastly deploy web pages and apps. It is made in Python 3 and is very lightweight.
-      </br>
-      <br>It uses basic python library and executes and listens on a specific port wich can be changed and it even handles a IP if one wishes to deploy and test in a real world situation.
-      </br> 
-      </p>
-      <br><br>
-      
-      <h4><small>RECENT POSTS</small></h4>
-      <hr>
-      <h2>Officially Blogging</h2>
-      <h5><span class="glyphicon glyphicon-time"></span> Post by John Doe, Sep 24, 2015.</h5>
-      <h5><span class="label label-success">Lorem</span></h5><br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <hr>
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <div class="callout">
+            <h3>The modular and self contained webserver!</h3>
+            <p>This project was built with Python 3 and uses basic library to handle files within the Pandora folder, it can access it through localserver and via localhost too. The example files are made with Foundation and shows a very basic usage of the funcionality, with javascript enabled.</p>
+            <p>Lets take a dive into it.</p>
+            </div>
+
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <h5>How it works?</h5>
+          <!-- Grid Example -->
+
+          <div class="grid-x grid-padding-x">
+            <div class="large-12 cell">
+              <div class="primary callout">
+                <p><strong>It's a self contained webserver!</strong> So you just need to put it in the main project folder and the code will access all the itens within it, respecting the hierarchy, just like magic!.</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-x grid-padding-x">
+            <div class="large-12 cell">
+              <div class="primary callout">
+                <p>Very little codebase to follow and run, it means that it's very easy to modify and make it suits your project in any way.</p>
+              </div>
+            </div>
+            <div class="large-12 cell">
+              <div class="primary callout">
+                <p>And it also means that if you're not primarily a WebDev, the chances that you dont have something like Apache or Nginx and chances are you dont wanna mess around with another toolset in your sistem just to test and deploy a small site for any purpose you want, Pandora came right into this. <strong>So is this is it! Take a look and deploy your projects!</strong><</p>
+              </div>
+            </div>
+          </div>
+          <hr />
+<script src="assets/js/vendor.js"></script>
+<script src="assets/js/foundation.js"></script>
 </body>
 </html>
